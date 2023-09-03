@@ -7,19 +7,22 @@
 html{
     font-family: 'Libre Baskerville', serif;
     font-weight: bold;
+    background-color: #eee;
 }
 header{
-    color: white;
-    font-size: 1.1rem;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
 #logo{
     padding: 8px;
 }
 nav{
     position: fixed;
+    width: 100%;
+    background-color: white;
+    color: white;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 a.menu{
     padding: 10px;
@@ -66,6 +69,7 @@ div.conteudo-apresentacao p{
 /* inicio da section conteúdo */
 /* Toda section conteúdo */
 section.conteudo{
+    color: rgba(13, 29, 44, 0.89);
     max-width: 720px;
     margin: auto;
     text-align: center;
@@ -89,7 +93,7 @@ div.meus-projetos{
 div#projeto{
     width: 238px;
     height: 450px;
-    border: solid 2px black;
+    border: solid 2px rgba(13, 29, 44, 0.89);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
     border-radius: 7px;
     margin: 10px;
@@ -99,4 +103,7 @@ div#projeto{
 }
 div#projeto a{
     text-decoration: none;
+}
+section#contato{
+    color: rgba(13, 29, 44, 0.89);
 }
