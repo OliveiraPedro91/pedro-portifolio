@@ -1,8 +1,11 @@
 
 /* CSS para Smarthphones */
 @charset "UTF-8";
-nav{
-    height: 180px;
-    display: flex;
-    flex-direction: column;
+@media  screen and (max-width: 640px) {
+    nav{
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+    }
 }
+
