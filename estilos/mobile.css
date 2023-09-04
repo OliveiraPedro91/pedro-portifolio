@@ -3,9 +3,24 @@
 @charset "UTF-8";
 @media  screen and (max-width: 640px) {
     nav{
-        height: 180px;
+        height: 190px;
         display: flex;
         flex-direction: column;
+    }
+    nav > div#logo {
+        padding: 0px;
+
+    }
+    nav > div#botoes{
+        width: 90%;
+        text-align: center;
+        padding-bottom: 1px;
+        display: flex;
+        flex-direction: column;
+    }
+    nav > div#botoes:nth-child(2){
+        border-top: 1px solid #333;
+        border-bottom: 1px solid #333;
     }
 }
 
