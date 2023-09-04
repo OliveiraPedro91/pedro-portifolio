@@ -111,7 +111,7 @@ section.contato{
     color: rgba(13, 29, 44, 0.89);
 }
 .contato h1{
-    padding: 20px;
+    padding: 30px;
 }
 .contato aside{
     display: flex;
@@ -120,5 +120,15 @@ section.contato{
 .contato li{
     list-style-type: none;
 }
+.container {
+    display: flex;
+    justify-content: space-around; /* Distribui o espaço horizontal entre os elementos */
+}
+
+.redes-sociais, .formulario {
+    flex: 1; /* Distribui igualmente o espaço horizontal entre os elementos */
+}
+
+
 
 
