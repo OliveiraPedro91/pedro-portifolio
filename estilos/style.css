@@ -84,6 +84,7 @@ div.meus-projetos{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    padding: 20px;
 }
 /* Cards de conteúdos com os sites */
 div#projeto{
@@ -101,6 +102,23 @@ div#projeto:hover{
     text-decoration: none;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
 }
-section#contato{
+section.contato{
+    width: 720px;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    border-top: 1px solid rgba(13, 29, 44, 0.8);
     color: rgba(13, 29, 44, 0.89);
 }
+.contato h1{
+    padding: 20px;
+}
+.contato aside{
+    display: flex;
+    justify-content: center;
+}
+.contato li{
+    list-style-type: none;
+}
+
+
