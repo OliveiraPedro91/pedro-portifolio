@@ -20,6 +20,7 @@
         flex-direction: column;
     }
     section.apresentacao{
+        text-align: justify;
         height: 100vh;
         display: block;
         flex-direction: column;
