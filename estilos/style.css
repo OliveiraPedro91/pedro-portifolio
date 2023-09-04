@@ -113,20 +113,26 @@ section.contato{
 .contato h1{
     padding: 30px;
 }
-.contato aside{
-    display: flex;
-    justify-content: center;
-}
 .contato li{
     list-style-type: none;
+    padding: 25px;
+    border-radius: 50%;
 }
 .container {
     display: flex;
     justify-content: space-around; /* Distribui o espaço horizontal entre os elementos */
 }
-
 .redes-sociais, .formulario {
-    flex: 1; /* Distribui igualmente o espaço horizontal entre os elementos */
+    flex: 2; /* Distribui igualmente o espaço horizontal entre os elementos */
+}
+.formulario {
+    border-left: 1px solid rgba(13, 29, 44, 0.8);
+    padding-left: 30px;
+}
+footer{
+    background-color: white;
+    text-align: center;
+    box-shadow: 0px -3px 10px rgba(0, 0, 0, 0.5);
 }
 
 

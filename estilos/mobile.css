@@ -34,5 +34,29 @@
         font-size: 0.9rem;
         font-weight: normal;
     }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    section.contato {
+        max-width: 640px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        border: none;
+    }
+    .redes-sociais, .formulario{
+        display: block;
+    }
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    input{
+        display: flex;
+        flex-direction: column;
+    }
 }
+
 
