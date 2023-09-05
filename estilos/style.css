@@ -96,38 +96,33 @@ div#projeto{
     margin: 10px;
     box-sizing: border-box;
     overflow: hidden;
-    
 }
 div#projeto:hover{
     text-decoration: none;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
 }
-section.contato{
-    width: 720px;
-    padding: 20px;
-    text-align: center;
+div.vazia{
     margin: auto;
-    border-top: 1px solid rgba(13, 29, 44, 0.8);
-    color: rgba(13, 29, 44, 0.89);
+    width: 600px;
+    border-top: 1px solid black;
 }
-.contato h1{
+.contato{
+    margin: auto;
+    width: 720px;
+    border-top: 1px solid black;
+}
+section.js-contato h1{
+    text-align: center;
     padding: 30px;
 }
-.contato li{
-    list-style-type: none;
-    padding: 25px;
-    border-radius: 50%;
-}
-.container {
+.redes-sociais{
+    max-width: 600px;
+    margin: auto;
     display: flex;
-    justify-content: space-around; /* Distribui o espaço horizontal entre os elementos */
+    justify-content: space-evenly;
 }
-.redes-sociais, .formulario {
-    flex: 2; /* Distribui igualmente o espaço horizontal entre os elementos */
-}
-.formulario {
-    border-left: 1px solid rgba(13, 29, 44, 0.8);
-    padding-left: 30px;
+.redes-sociais a{
+    padding: 10px;
 }
 footer{
     background-color: white;
