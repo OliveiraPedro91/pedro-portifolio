@@ -1,6 +1,5 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
-@media  screen and (min-width: 500px) and (max-width: 4800px) {
 *{
     margin: 0;
     padding: 0;
@@ -199,5 +198,3 @@ footer{
 footer img{
     padding-left: 10px;
 }
-}
-

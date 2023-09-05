@@ -18,8 +18,7 @@
         flex-direction: column;
     }
     div#espaco-mobile{
-        height: 1000px;
-        background-color: red;
+        display: none;
     }
     section.apresentacao{
         text-align: justify;
