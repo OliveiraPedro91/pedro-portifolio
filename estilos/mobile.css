@@ -1,7 +1,7 @@
 
 /* CSS para Smarthphones */
 @charset "UTF-8";
-@media  screen and (max-width: 540px) {
+@media  screen and (max-width: 640px) {
     nav{
         padding-bottom: 10px;
         height: 180px;
@@ -37,6 +37,10 @@
     div.vazia{
         max-width: 450px;
     }
+    div#espaco-contato{
+        display: none;
+    }
+
 }
 
 
